@@ -47,6 +47,8 @@ sbt doc
 ```
 
 Perf tests:
+----------------
+
 I've made some perf benchmarking (not best due to jvm :( ) but cache-misses should be accurate:
 
 ```

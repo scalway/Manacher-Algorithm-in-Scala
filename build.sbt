@@ -10,3 +10,5 @@ lazy val root = (project in file(".")).
     name := "Palindromes",
     libraryDependencies += scalaTest % Test
   )
+
+mainClass in Compile := Some("app.Main")
